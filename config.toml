@@ -1,0 +1,29 @@
+theme = "lynx"
+title = "Log'arithmé"
+copyright = "© 2024 Log'arithmé"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+  name = "~Log'arithmé~"
+  headline = "• 🎮 / 🦀 / 🐍 / 🕸️ Developer • Playing with LLMs & Stable Diffusion"
+  image = "author.jpg"
+  links = [
+	# { link = { href = "https://link-to-some-website.com/", text = "" } },
+	{ itch = { href = "https://sairon711.itch.io/",	text = "itch.io" } },
+    { github = "https://github.com/figo711" },
+	{ linkedin = "https://www.linkedin.com/in/maxim-panis/" },
+	{ discord = "https://discordapp.com/users/457850341149376513" },
+	{ x = { href = "https://x.com/sairon711", text = "X (Twitter)" } },
+	# { patreon = "https://www.patreon.com/username" },
+	# { tumblr = "https://username.tumblr.com" },
+	# { youtube = { href = "https://youtube.com/username", text = "" } },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
